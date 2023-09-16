@@ -1,0 +1,25 @@
+git setup & configuration:
+git version check : git --version
+
+configuration:
+git config >> usage: git config [<options>]
+
+set global username:
+git config --global user.name "mayershohag"
+
+set different repository username: 
+git config user.name "mayershohag"
+
+set email:
+git config --global user.email "shohagsreepur2021@gmail.com"
+
+confirm username or email will be set:
+git config --list
+
+confirm which username will be set:
+git config user.name
+
+confirm which username will be set:
+git config user.email
+
+
