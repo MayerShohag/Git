@@ -5,13 +5,13 @@ configuration:
 git config >> usage: git config [<options>]
 
 set global username:
-git config --global user.name "mayershohag"
+git config --global user.name "set your username"
 
 set different repository username: 
-git config user.name "mayershohag"
+git config user.name "set your username"
 
 set email:
-git config --global user.email "shohagsreepur2021@gmail.com"
+git config --global user.email "set your email address"
 
 confirm username or email will be set:
 git config --list
@@ -19,7 +19,5 @@ git config --list
 confirm which username will be set:
 git config user.name
 
-confirm which username will be set:
+confirm which useremail will be set:
 git config user.email
-
-
